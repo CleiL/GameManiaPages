@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+header{
+    background-color: black;
+    margin: auto;
+}
+img{
+    width: 110px;
+    height: 100px;
+}
+.corpoCabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cabecalhoMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 750px;
+}
+.cabecalhoMenu a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.menu-bars{
+    font-size: 40px;
+    display: none;
+}
+.fa-solid.fa-bars{
+    color: #0FA958;
+}
+.bannerPCGamer{
+    height: 450px;
+    background-image:url(../IMG/pcGamer.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.ppg{
+    height: 100%;
+    display: flex;
+    justify-content: first baseline;
+    align-items: flex-end;
+    padding: 50px;
+}
+.conteudo-banner{
+    color: white;
+    width: 330px;
+}
+.conteudo-banner h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.bannerPCGamer .conteudo-banner a{
+    text-decoration:none ;
+    color: white;
+}
+.bannerConsole .conteudo-banner a{
+    text-decoration:none ;
+    color: white;
+}
+.bannerConsole{
+    height: 450px;
+    background-image: url(../IMG/consoles.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.pc{
+    height: 100%;
+    display: flex;
+    justify-content: first baseline;
+    align-items: flex-end;
+    padding: 50px;
+}
+.ofertaLoja{
+    display: flex;
+    background-color: #000;
+}
+.ofertaLoja .main-gridloja .conteudo-produtos{
+    display: flex;
+    justify-content: space-around;
+}
+.itens{
+    display: flex;
+    align-items: center;
+}
+.texto-produto{
+    font-family: sans-serif;
+    color: white;
+    padding: 50px;
+}
+h2{
+    color: white;
+    font-size: 15px;
+}
+p{
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+}
+.verde{
+    color: #0FA958;
+    font-size: 10px;
+}
+.precos{
+    color: #f12020;
+}
+.tmenor{
+    color: #0FA958;
+    font-size: 10px;
+}
+.pl{
+    height: 100%;
+    display: flex;
+    justify-content: first baseline;
+    align-items: flex-end;
+    padding: 50px;
+}
+.texto-produto button{
+    color: #000;
+    font-size: 20px;
+    background-color: #f12020;
+    text-transform: uppercase;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+}
+.bannerClubeGameMania{
+    height: 450px;
+    background-image: url(../IMG/clubGameMania.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cgm{
+    height: 300px;
+    background-image: url(../IMG/Club\ Game\ mania\ logolimpo.png);
+    background-position: center;
+    align-items: center;
+}
+.cgm .botao{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+.cgm .botao button{
+    background: #f12020;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.pcgm{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    bottom: 0px;
+    width: 100%;
+    background: #000;
+}
+.rodape{
+    display: flex;
+}
+.rodape .box{
+    flex-basis: 50%;
+    padding: 15px 175px;
+}
+.box h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+}
+.left .social a{
+    padding: 0 2px;
+    color: white;
+}
+.left .social{
+    width: 150px;
+    height: 110px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+}
+.left .social a:hover{
+    background: #f12020;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.right .content{
+    color: white;
+    padding: 10px;
+}
+.right form input{
+    height: 30px;
+    width: 100%;
+}
+.right form .botao{
+    margin-top: 20px;
+}
+.right form .botao button{
+    height: 25px;
+    width: 100%;
+    background: #f12020;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+.right form .botao button:hover{
+    background: #000;
+}
+.button .center{
+    padding: 5px;
+    font-size: 10px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.button .center span{
+    color: white;
+}
+.button .center a{
+    color: white;
+    text-decoration: none;
+}
+@media  screen and (max-width: 1200px) {
+    .ofertaLoja .main-gridloja .conteudo-produtos{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+@media  screen and (max-width: 900px) {
+    .rodape{
+        width: 100%;
+        flex-wrap: wrap;        
+        justify-content: center;
+    }
+}
+@media  screen and (max-width: 800px) {
+    .corpoCabecalho{
+        position: relative;
+    }
+    .cabecalhoMenu{
+        height: 300px;
+        position: absolute;
+        top: 100px;
+        display: none;
+        background-color: #000;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-bars{
+        display: inline-block;
+    }
+}
