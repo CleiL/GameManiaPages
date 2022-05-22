@@ -17,7 +17,7 @@
             <img src="IMG/Gamemania.gif" alt="logo game mania">
             <nav id="menu" class="cabecalhoMenu">
                 <a href="login.html">inicio</a>
-                <a href="#">pc games</a>
+                <a href="#">pc gamer</a>
                 <a href="#">consoles</a>                   
                 <a href="#">loja</a>                   
                 <a href="login.html">clube game mania</a>
@@ -115,37 +115,28 @@
         </section>
     </main><!--corpo -->
     <footer><!--rodapé -->
-        <div class="grid-rodape">
-            <div class="left-footer">
-                <h3>Siga-no nas redes socias</h3>
-                <ul class="socias">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                </ul>
-            </div>
-            <div class="center-footer">
-                <img src="IMG/Gamemania.gif" alt="logo game mania">
-            </div>
-            <div class="right-box">
-                <p>Email</p>
-
-                <form action="">
-                    <input id="campo-email" type="email" placeholder="E-mail" required>
-                    <p>Mensagem</p>
-                    <textarea name="Mensagem" id="" cols="30" rows=""></textarea>
-                </form>
-                <div class="botao">
-                    <button type="submit">Enviar</button>
+        <div class="rodape">
+            <div class="links-footer">
+                <div class="siga-nos">
+                    <h2>Siga-nos</h2>
+                    <a routerLink=""><i class="fa-brands fa-facebook fa"></i></a>
+                    <a routerLink=""><i class="fa-brands fa-instagram"></i></a>
+                    <a routerLink=""><i class="fa-brands fa-twitter"></i></a>
+                    <a routerLink=""><i class="fa-brands fa-youtube"></i></a>
+                    <a routerLink=""><i class="fa-brands fa-twitch"></i></a>   
                 </div>
             </div>
-        </div>              
-        <div class="assinatura">Criado por Clei Desenvolvedor Web Mobile     
-            <div class="copy"><a href="#">    <i class="fa-regular fa-copyright"></i> 2022 </a></div>
-        </div>
-    </footer><!--rodape -->
+            <img class="logo-rodape" src="IMG/Gamemania.gif" alt="Logo Game Mania">
+            <div class="sociais">
+                <p>Faça parte do nosso clube, receba notícias e promoções!</p>
+      
+                <form action="">
+                    <input id="campo-email" type="email" placeholder="E-mail" required>
+                    <button onclick="cadastrar()">Cadastrar</button>                
+                </form>
+            </div>
+        </div>        
+      </footer><!--rodape -->
 
     <script src="JS/jqueryPageGM.js"></script>
 

@@ -40,6 +40,7 @@ img{
 }
 /*corpo PcGamer*/
 .bannerPCGamer{
+    width: 100%;
     height: 450px;
     background-image:url(../IMG/pcGamer.jpg);
     background-position: center;
@@ -72,6 +73,7 @@ img{
     color: white;
 }
 .bannerConsole{
+    width: 100%;
     height: 450px;
     background-image: url(../IMG/consoles.jpg);
     background-position: center;
@@ -141,6 +143,7 @@ p{
 }
 /*corpo clube*/
 .bannerClubeGameMania{
+    width: 100%;
     height: 450px;
     background-image: url(../IMG/clubGameMania.jpg);
     background-position: center;
@@ -175,107 +178,64 @@ p{
     align-items: center;
 }
 /*corpo footer*/
+/*corpo footer*/
 footer {
-    padding: 10px 10px;
     background-color: black;
 }
-.grid-rodape {
-    display: flex;
+
+.rodape {
+        display: flex;
     justify-content: space-between;
-    padding-right: 140px;
-   
-    
-}
-.grid-rodape .left-footer {
-    color: #0FA958;
-    font-family: sans-serif;
-    font-size: 20px; 
-    padding: 20px; 
-}
-.grid-rodape .left-footer a {
-    color: #e0e0e0;
-    padding-right: 10px;
-    font-size: 25px;
-}
-.grid-rodape .right-box {
-    color:#0FA958;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-.grid-rodape .right-box p{
-    color:#0FA958;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-}
-.assinatura {
-    color: #0FA958;
-    display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+    color: white;
     font-family: sans-serif;
     text-transform: uppercase;
-    font-size: 9px;
 }
-.assinatura .copy a{
-    padding: 30px;
-    color: #0FA958;
+.rodape h2{
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+.rodape a{
+    color: white;
+    padding-left: 30px;
+}
+
+img{
+    height: 150px;
+}
+.sociais p{
     font-family: sans-serif;
-    text-decoration: none;  
+    padding-bottom: 20px;
 }
-/*corpo login*/
-main{
-    background-color: black;
-    padding: 100px 0;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    color: white;
-}
-form{
-    width: 40%;
-    height: 400px;
-    margin: 0 auto;
-    padding: 100px 0;
-
-    background-color: #1E1C21;
-
-    display: flex;
-    flex-direction: column;
+.sociais form {
+    width: 100%;
+    display: flex; 
     justify-content: space-between;
+    margin-bottom: 10px;;
 }
-form input[type="submit"]{
-    width: 60%;
-    margin: 0 auto;
-    background-color: #c31616;
-    color: white;
-}
-.campo-label {
-    width: 60%;
-    margin: 0 auto;
-
-    display: flex;
-    flex-direction: column;
-}
-input {
+.sociais input[type="email"]{
+    height: 33px;
+    width: 65%;  
+    border-radius: 0px; 
+    border-style: none; 
     text-indent: 5px;
 }
-input, button {
-    height: 35px;
-    border-radius: 4px;
+.sociais input[type="email"]::placeholder {
+    color: #B8B3B3;
+    font-weight: bold;
+}
+.sociais button{
+    width: 30%;
+    color: white;
+    background-color: #001F70;
     border: none;
+    font-family: sans-serif;
+    font-weight: 600;
 }
-button {
-    width: 200px;
-}
-p{
-    text-align: center;
-}
-
-/*media loja*/
-@media  screen and (max-width: 1200px) {
-    .ofertaLoja .main-gridloja .conteudo-produtos{
+@media  screen and (max-width: 1700px) {
+    .rodape{
         width: 100%;
         flex-wrap: wrap;
         justify-content: center;
