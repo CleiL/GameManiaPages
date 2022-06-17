@@ -1,0 +1,112 @@
+header{
+    background-color: black;
+    margin: auto;
+}
+img{
+    width: 110px;
+    height: 100px;
+}
+.corpoCabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cabecalhoMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 750px;
+}
+.cabecalhoMenu a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.menu-bars{
+    font-size: 40px;
+    display: none;
+}
+.fa-solid.fa-bars{
+    color: #0FA958;
+}
+
+
+main {
+    background-color: black;
+    padding: 100px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+    font-family: sans-serif;
+}
+form{
+    width: 40%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 100px 0;
+
+    background-color: #1E1C21;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+form button[type="submit"]{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #c31616;
+    color: white;
+}
+.campo-label {
+    width: 60%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+input {
+    text-indent: 5px;
+}
+input, button{
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+}
+button{
+    width: 200px;
+}
+p {
+    text-align: center;
+}
+@media  screen and (max-width: 1700px) {
+    .rodape{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }    
+}
+/*media cabeçalho*/
+
+@media  screen and (max-width: 800px) {
+    .corpoCabecalho{
+        position: relative;
+    }
+    .cabecalhoMenu{
+        height: 300px;
+        position: absolute;
+        top: 100px;
+        display: none;
+        background-color: #000;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-bars{
+        display: inline-block;
+    }
+}
